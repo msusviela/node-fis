@@ -7,7 +7,8 @@
     "lint": "eslint . --fix",
     "format": "prettier . --write",
     "pretest": "npm run format && npm run lint",
-    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage"
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
