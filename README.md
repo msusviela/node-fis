@@ -1,3 +1,5 @@
+# Este código sigue malas prácticas con la finalidad de mostrar ESLint. Evitar usar el contenido de los archivos .js como ejemplo
+
 # Node y npm
 
 Node.js® es un entorno de ejecución de JavaScript multiplataforma, de código abierto y gratuito que permite a los desarrolladores crear servidores, aplicaciones web, herramientas de línea de comando y scripts. [Documentación Oficial](https://nodejs.org/es)
@@ -97,3 +99,15 @@ export default [
   },
 ];
 ```
+
+# Instalación de dependencias
+
+- Eliminar la carpeta node_modules y observar que sucede. Volver a instalar la dependencia.
+
+# Comandos útiles:
+- npm init -y
+- npm init
+- npm install
+- npm i
+- npx eslint .
+- npx prettier . --write
