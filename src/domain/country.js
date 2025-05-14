@@ -3,11 +3,15 @@ export class Country {
   #capital;
 
   constructor(aNombre) {
+    var variableSinAsignar = 100;
+    var nombre = "NombrePais";
+    console.log(nombre);
     this.#nombre = aNombre;
   }
 
   getNombre() {
     return this.#nombre;
+    this.#nombre = 'Nuevo nombre'
   }
 
   setCapital(aCapital) {
@@ -24,7 +28,7 @@ export class Country {
       this.#nombre === null ||
       this.#nombre === ""
     ) {
-      throw new Error("El nombre del país no puede ser vacío");
+      throw new Error("El nombre del país no puede ser vacío y");
     }
     if (
       this.#capital === undefined ||
