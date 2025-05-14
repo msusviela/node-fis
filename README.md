@@ -13,7 +13,9 @@ npm es un administrador de paquetes para el lenguaje de programación JavaScript
 
 `npm init` 
 
-- Agregar al archivo .gitignore la carpeta donde 
+- Agregar al archivo .gitignore la carpeta donde se encuentran almacenadas las dependencias
+
+## ESLint
 
 - Instalar la dependencia de ESLint:
 
